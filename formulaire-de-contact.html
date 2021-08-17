@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Formulaire de contact">
+    <title>Document</title>
+    <link href="css/form.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <h1>Formulaire de contact</h1>
+
+    <form action="test.php" method="POST">
+
+        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+        <input type="text" id="sujet" name="sujet" placeholder="Votre sujet" required>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" required></textarea>
+
+        <input type="submit" class="envoi" value="envoyer">
+    </form>
+
+</body>
+</html>
